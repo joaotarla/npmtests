@@ -1,0 +1,17 @@
+{
+  "name": "express-router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "Joao Tarla <joao@tarla.com.br>",
+  "license": "MIT"
+}
