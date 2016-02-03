@@ -8,10 +8,13 @@
     "test": "test"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "jade": "^1.11.0"
+  },
   "scripts": {
     "test": "make test",
-    "run": "make run"
+    "start": "make start"
   },
   "author": "Joao Tarla <joao@tarla.com.br>",
   "license": "MIT"
