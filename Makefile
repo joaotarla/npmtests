@@ -22,6 +22,6 @@ skel:
 	npm install mocha chai --save-dev
 
 start:
-	coffee server/app.coffee
+	coffee app.coffee
 
 .PHONY: test tap unit jshint skel
