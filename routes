@@ -3,6 +3,7 @@
 # ~~~~
 
 # Home page
-GET     /healthCheck           controllers.HealthCheckController.index
+GET     /healthCheck           controllers.HealthCheckController.healthCheck
+GET     /                      controllers.HealthCheckController.index
 #GET     /                      controllers.Application.index
 #GET     /api/v1/groceries      controllers.GroceriesController.all
